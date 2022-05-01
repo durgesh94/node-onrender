@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const { PORT } = require('./config');
+// const { PORT } = require('./config');
 
 //** Create express app */
 const app = express();
@@ -21,6 +21,6 @@ app.get("/", (req, res) => {
 });
 
 //** Listen for requests */
-app.listen(PORT || 3000, () => {
-    console.log("Server is listening on port " + PORT || 3000);
+app.listen(3000, () => {
+    console.log("Server is listening on port " + 3000);
 });
