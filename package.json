@@ -1,0 +1,29 @@
+{
+  "name": "node-onrender-sample",
+  "version": "1.0.0",
+  "description": "nodejs api is deployed on render",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durgesh94/node-onrender.git"
+  },
+  "author": "Durgesh Tambe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durgesh94/node-onrender/issues"
+  },
+  "homepage": "https://github.com/durgesh94/node-onrender#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
